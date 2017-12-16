@@ -1,0 +1,238 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    padding: 0;
+	margin: 0;
+}
+header {
+    background-color: #4a4f56;
+    padding: 15px;
+    text-align: center;
+    color: #e97f81;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.header-text-1 {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 56px;
+    margin-bottom: 10px;
+}
+.header-text-2 {
+    font-family: Arial, sans-serif;
+    font-size: 37px;
+}
+main {
+    background-color: #3b3f45;
+    height: 1000px;
+}
+.block1 {
+    width: 1280px;
+    height: 800px;
+    margin: auto;
+    padding-top: 50px;
+}
+.container1 {
+    width: 1280px;
+    height: 100px;
+    position: relative;
+    padding: 15px;
+    border-bottom: 6px solid #ffffff00;
+    border-top: 6px solid #ffffff00;
+}
+.container1:nth-child(odd){
+    color: white;
+    background-color: #88849d;
+}
+.container1:nth-child(even){
+    color: white;
+    background-color: #7a7692;
+}
+label {
+    cursor: pointer;
+    display: block;
+    width: 1280px;
+    height: 100px;
+}
+.my-checkbox {
+    width: 40px;
+    height: 40px;
+    margin: 23px;
+    background-color: #e0e0e0;
+    cursor: pointer;
+}
+span {
+    font-family: Arial, sans-serif;
+    font-size: 40px;
+}
+.small {
+    font-family: Arial, sans-serif;
+    font-size: 25px;
+    color: #c6cbd6 ;
+}
+input:checked + span {
+    text-decoration: line-through;
+    color: #a3a0b4 ;
+}
+.submit-1 {
+    width: 1280px;
+    height: 100px;
+    font-family: Arial, sans-serif;
+    font-size: 40px;
+    background-color: #4a4f56;
+    text-align: center;
+    color: #e97f81;
+    border: 6px solid #a9a8ac00;
+    cursor: pointer;
+    margin-top: 50px;
+}
+.submit-1:hover {
+    background-color: #646b75;
+}
+.container1:hover {
+    background-color: #625e76;
+    border-bottom: 6px solid #ffffff;
+    border-top: 6px solid #ffffff;
+}
+
+
+
+
+
+/*div.container1 span {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -60%) 
+
+
+
+    transform: translateY(-50%);
+    transition: all 0.3s easy-in-out;
+}
+
+
+table {
+    width: 1280px;
+    height: 600px;
+    margin: auto;
+    padding: 15px;
+}
+tr {
+    display: block;
+    cursor: pointer;
+    width: 1250px;
+    height: 100px;
+    border-bottom: 6px solid #ffffff00;
+    border-top: 6px solid #ffffff00;
+}
+tr:nth-child(odd){
+    color: white;
+    background-color: #88849d;
+}
+tr:nth-child(even){
+    color: white;
+    background-color: #7a7692;
+}
+tr:hover {
+    background-color: #625e76;
+    border-bottom: 6px solid #ffffff;
+    border-top: 6px solid #ffffff;
+}
+label {
+    cursor: pointer;
+}
+.my-checkbox {
+    width: 40px;
+    height: 40px;
+    margin: 23px;
+    background-color: #e0e0e0;
+    cursor: pointer;
+}
+span {
+    font-family: Arial, sans-serif;
+    font-size: 40px;
+}
+.small {
+    font-family: Arial, sans-serif;
+    font-size: 25px;
+    color: #c6cbd6 ;
+}
+input:checked + span {
+    text-decoration: line-through;
+    color: #a3a0b4 ;
+}
+.submit-1 {
+    width: 1250px;
+    height: 100px;
+    font-family: Arial, sans-serif;
+    font-size: 40px;
+    background-color: #4a4f56;
+    text-align: center;
+    color: #e97f81;
+    border: 6px solid #a9a8ac00;
+    cursor: pointer;
+    margin-left: 18px;
+    margin-top: 50px;
+}
+.submit-1:hover {
+    background-color: #646b75;
+}
+*/
+
+
+
+/*
+
+ width: 20px;
+    height: 20px;
+    border: 2px solid #ffffff;
+    transform: translateY(-50%);
+    transition: all 0.3s easy-in-out;
+    background-color: #88849d;
+
+
+*
+padding: 0;
+	margin: 0;
+	transition: all .3s ease-in-out;
+
+.box {
+	display: inline-block;
+	height: 20px;
+	width: 20px;
+	border: 1px solid #cbc9c9;
+	background-color: #d7d4d4;
+	box-shadow: inset 0 0 8px #fff;
+	vertical-align: middle;
+	margin-right: 10px;
+
+
+
+input:checked + .box:after {
+	position: absolute;
+	content: "";
+	background: url(cheked.png) no-repeat;
+	-webkit-background-size: 100%;
+	background-size: 100%;
+	height: 20px;
+	width: 20px;
+	top: 3px;
+	left: 1px;
+	transition: background .3s ease-in-out;
+}
+
+.button {
+	cursor: pointer;
+	border:none;
+	margin-top: 30px;
+	background-color: #4a4f56;
+	width: 100%;
+	padding: 15px;
+	font-size: 24px;
+	color: #e97f81;
+	outline: none;
+}
+
+*/
