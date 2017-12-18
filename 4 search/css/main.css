@@ -1,0 +1,108 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a,
+input[type="submit"] {
+    text-decoration: none;
+}
+html{
+	height: 100%;
+}
+html, body {
+	min-height: 100%;
+}
+body {
+    background-color: #f1f1f1;
+    font-family: Arial, sans-serif;
+    color: #c2c2c2;
+}
+.big-container {
+    padding-top: 35px;
+}
+.big-form {
+    margin: auto;
+    position: relative;
+    height: 110px;
+    width: 80%;
+}
+.big-search {
+    height: 110px;
+    width: 100%;
+    font-size: 100px;
+    font-weight: 700;
+    border: none;
+    background: transparent;
+    color: #ec5a62;
+    padding: 20px;
+}
+.big-search::-webkit-input-placeholder {
+	color: #c2c2c2;
+}
+.big-search-botton {
+    position: absolute;
+	width: 85px;
+	height: 85px;
+	right: 0;
+	top: 10%;
+	background: transparent url(./../img/magnifier.svg);
+    border: none;
+    cursor: pointer;
+}
+.container-of-three-box {
+    margin-top: 50px;
+    width: 100%;
+    padding-left: 12%;
+    padding-right: 12%;
+}
+.block-of-six {
+    display: inline-block;
+	width: 30%;
+    padding-bottom: 30px;
+    margin-right: 30px;
+}
+.block-title {
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 20px; 
+}
+.block-list {
+    padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.block-list a {
+    display: block;
+    padding: 12px;
+    margin: 3px;
+	cursor: pointer;
+	border-radius: 5px;
+	background-color: rgba(118,117,128,0.05);
+}
+.foto-circle {
+    border-radius: 50%;
+}
+.block-list span {
+    vertical-align: middle;
+	display: inline-block;
+	font-size: 14 px;
+	width: calc(100% - 70px);
+    color: #c2c2c2;
+    font-weight: 700;
+}
+.block-list img {
+	display: inline-block;
+	width: 50px;
+	margin-right: 10px;
+	vertical-align: middle;
+}
+.block-list a:hover {
+    background-color: rgba(118,117,128,0.1)
+}
+.block-list span:hover {
+    color: #ec5a62;
+}

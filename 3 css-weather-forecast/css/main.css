@@ -1,0 +1,126 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+	height: 100%;
+}
+html, body {
+	min-height: 100%;
+}
+p {
+    font-family: “Lucida Sans Unicode”, “Lucida Grande”, sans-serif;
+}
+.paragraf1 {
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    width: 680px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.white {
+    font-size: 25px;
+    color: white;
+}
+.paragraf2 {
+    font-size: 14px;
+    color: white;
+    width: 680px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+body {
+    background-color: #3399cc;
+    border: 15px solid #2b81ac;
+    padding: 15px;
+}
+.block {
+    max-width: 680px;
+    height: 440px;
+    margin: auto;
+}
+.block-cities {
+    display: block;
+    margin: 0 auto;
+    max-width: 680px;
+    width: 100%;
+    list-style-type: none;
+    font-size: 0;
+    border: 2px solid #ffffff;
+}
+li {
+    display: inline-block;
+    width: 25%;
+    height: 110px;
+    text-align: center;
+    border: 2px solid #ffffff;
+    font-size: 30px;
+}
+.whole {
+    width: 100%;
+}
+.one-half {
+    width: 50%;
+}
+.blue {
+    background-color: #3399cc;
+}
+.lightblue {
+    background-color: #33cccc;
+}
+.lilac {
+    background-color: #996699;
+}
+.red {
+    background-color: #c24747;
+}
+.lightred {
+    background-color: #e2674a;
+}
+.yellow {
+    background-color: #ffcc66;
+}
+.lightgreen {
+    background-color: #99cc99;
+}
+.gray {
+    background-color: #669999;
+}
+.pink {
+    background-color: #cc6699;
+}
+.green {
+    background-color: #339966;
+}
+.purple {
+    background-color: #666699;
+}
+.city {
+    font-family: “Lucida Sans Unicode”, “Lucida Grande”, sans-serif;
+    font-size: 18px;
+    color: white;
+    margin-top: 20px;
+}
+.temperature {
+    font-family: “Lucida Sans Unicode”, “Lucida Grande”, sans-serif;
+    font-size: 22px;
+    color: rgba(255, 255, 255, 0.616);
+}
+i {
+    font-size: 27px;
+    color: rgba(255, 255, 255, 0.616);
+}
+li:hover {
+    transition: all .1s ease-in;
+    opacity: 1;
+}
+ul:hover li:not(:hover) {
+    opacity: 0.5;
+    transition: all .1s ease-in;
+}
