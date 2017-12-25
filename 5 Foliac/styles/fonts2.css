@@ -1,0 +1,12 @@
+@font-face {
+font-family: 'BigJohn';
+src: url('./../fonts/BigJohn.otf');
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+font-family: 'Slim+Joe';
+src: url('./../fonts/Slim+Joe.otf');
+font-weight: normal;
+font-style: normal;
+}
