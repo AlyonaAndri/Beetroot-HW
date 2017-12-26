@@ -89,7 +89,7 @@ body {
 .block-list span {
     vertical-align: middle;
 	display: inline-block;
-	font-size: 14 px;
+	font-size: 14px;
 	width: calc(100% - 70px);
     color: #c2c2c2;
     font-weight: 700;

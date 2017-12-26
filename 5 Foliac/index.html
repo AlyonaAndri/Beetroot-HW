@@ -9,7 +9,6 @@
       <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
       <link href="./styles/fonts2.css" rel="stylesheet">
       <link href="./styles/font-awesome.min.css" rel="stylesheet">
-      <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
       <link rel="stylesheet" href="./styles/main.css">
       <link rel="shortcut icon" href="./img/favicon.png">
    </head>
@@ -39,13 +38,13 @@
         </div>
         <!-- / Main screen -->
         <!-- Gallery -->
-        <section id="gallery" class="section-gallery">
+        <section id="gallery" class="section-gallery gallery">
            <div class="gallary__btn-controls btn-controls">
-               <button class="btn-controls__btn btn-controls__btn--active">Tous less projetc</button>
-               <button class="btn-controls__btn">Webdesign</button>
-               <button class="btn-controls__btn">UI/UX design</button>
-               <button class="btn-controls__btn">Illustration</button>
-               <button class="btn-controls__btn">Motion design</button>    
+               <button class="btn-controls__btn btn-controls__btn--active">Tous less projetc <span class="btn-notification">about project</span></button>
+               <button class="btn-controls__btn">Webdesign<span class="btn-notification">about webdesign</span></button>
+               <button class="btn-controls__btn">UI/UX design<span class="btn-notification">about UI/UX design</span></button>
+               <button class="btn-controls__btn">Illustration<span class="btn-notification">about Illustration</span></button>
+               <button class="btn-controls__btn">Motion design<span class="btn-notification">about Motion design</span></button>    
            </div>
            <div class="gallary__list wrapper">
                <div class="gallary__column">
@@ -120,21 +119,21 @@
                 <p class="section-form__title">Me contacter</p>
                 <form class="section-form__form form">
                     <div class="form__field form__field-left">
-                        <span class="form__icon-field">
+                        <p class="form__icon-field">
                             <i class="fa fa-user-circle-o" aria-hidden="true"></i>
-                        </span>
+                        </p>
                         <input type="text" placeholder="Votre nom">
                     </div>
                     <div class="form__field form__field-right">
-                        <span class="form__icon-field">
+                        <p class="form__icon-field">
                             <i class="fa fa-envelope" aria-hidden="true"></i>
-                        </span>
+                        </p>
                         <input type="text" placeholder="Votre email">
                     </div>
                     <div class="form__field form__field--textarea">
-                        <span class="form__icon-field-textarea">
+                        <p class="form__icon-field-textarea">
                             <i class="fa fa-pencil" aria-hidden="true"></i>
-                        </span>
+                        </p>
                         <textarea placeholder="Votra massage"></textarea>
                     </div>
                     <button class="form__btn">Envoyer</button>
@@ -149,27 +148,30 @@
                 </p>
                 <div class="social-icons">
                     <a href="#">
-                        <div class="social-icons__background twitter">
+                        <div class="social-icons__item twitter">
                             <i class="fa fa-twitter" aria-hidden="true"></i>
                         </div>
                     </a>
                     <a href="#">
-                        <div class="social-icons__background linkedin">
+                        <div class="social-icons__item linkedin">
                             <i class="fa fa-linkedin-square" aria-hidden="true"></i>
                         </div>
                     </a>
                     <a href="#">
-                        <div class="social-icons__background dribbble">
+                        <div class="social-icons__item dribbble">
                             <i class="fa fa-dribbble" aria-hidden="true"></i>
                         </div>
                     </a>
                     <a href="#">
-                        <div class="social-icons__background behance">
+                        <div class="social-icons__item behance">
                             <i class="fa fa-behance" aria-hidden="true"></i>
                         </div>
                     </a>
                 </div>
             </div>
         </footer>
+        <button class="btn-up">
+            <i class="fa fa-arrow-up" aria-hidden="true"></i>
+        </button>
     </body>
 </html>
