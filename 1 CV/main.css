@@ -1,6 +1,10 @@
+//@ TODO: отступы - везде одинаковые и везде 2 пробела
 body {
 	font-family: "Times New Roman", Georgia, Serif;
 }
+
+// @TODO: должны быть пробелы (одна пустая строка) между правилами
+
 .menu-block {
     padding: 15px;
 }

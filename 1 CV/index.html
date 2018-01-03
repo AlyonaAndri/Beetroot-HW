@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html>
-    <head>
-      <meta charset="utf-8" />
-      <title>CV Alyona Andriyevskaya</title>
-      <link rel="stylesheet" href="main.css"
-   </head>
-   <body>
-     <header>
+
+<head>
+    <meta charset="utf-8" />
+    <title>CV Alyona Andriyevskaya</title>
+    <link rel="stylesheet" href="main.css" <--! @TODO: структура папок в документе должна быть как мы учили -->
+    <!-- @TODO: не все необходимые теги в хеде -->
+    <!-- @TODO: путь надо учиться укзаывать через href="./main.css" в будующем поймешь зачем-->
+    <!-- @TODO: использовать два пробела, а не 4ре и тд. Два проблеа - это стандарт в JS, Front End, etc -->
+</head>
+
+<body>
+    <header>
         <div>
             <a href="/">
                 <img class="displayed" src="img/CV.jpg" alt="photo" width="150" border="3px">
@@ -19,10 +24,12 @@
             <a class="menu-block" href="#hobbies">Interests and hobbies</a>
             <a class="menu-block" href="#contacts">Contacts</a>
         </nav>
-     </header>
-     <main>
+    </header>
+    <main>
         <hr>
-        <p><i>I want to be successful web developer with experience in developing interactive websites.</i></p>
+        <p>
+            <i>I want to be successful web developer with experience in developing interactive websites.</i>
+        </p>
         <hr>
         <section id="education">
             <h2>Education</h2>
@@ -32,14 +39,17 @@
                     <td>Specialty "Tourism"</td>
                 </tr>
                 <tr>
-                        <td colspan="2">Now I'm studying on the course "Front-End Development" at the Beetroot Academy!</td>
+                    <!-- @TODO: Отсупы -->
+                    <td colspan="2">Now I'm studying on the course "Front-End Development" at the Beetroot Academy!</td>
                 </tr>
             </table>
         </section>
         <hr>
         <section id="experience">
             <h2>Experience</h2>
-            <p>This CV :) <br>
+            <p>This CV :)
+                <br>
+                <!-- @TODO: Do not use <br>, you should use span or somethimg else. -->
                 And some time I work in IT company as Project Manager</p>
         </section>
         <hr>
@@ -54,14 +64,19 @@
             <p>+380664177197</p>
             <p>alyona.andriyevskaya@gmail.com</p>
             <ul>
-                <li><a href="https://www.facebook.com/profile.php?id=100001947849244">Facebook</a></li>
-                <li><a href="https://plus.google.com/u/0/106146429142187004981">Google+</a></li>
+                <li>
+                    <a href="https://www.facebook.com/profile.php?id=100001947849244">Facebook</a>
+                </li>
+                <li>
+                    <a href="https://plus.google.com/u/0/106146429142187004981">Google+</a>
+                </li>
             </ul>
         </section>
         <hr>
-     </main>
-     <footer>
-         <p>Copyright: AlyonaA</p>
-     </footer>
-   </body>
+    </main>
+    <footer>
+        <p>Copyright: AlyonaA</p>
+    </footer>
+</body>
+
 </html>

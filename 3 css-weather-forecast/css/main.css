@@ -5,6 +5,7 @@
     padding: 0;
     margin: 0;
 }
+// @TODO: отступы, отсупы перед фигурными скобками, 
 html{
 	height: 100%;
 }
@@ -19,6 +20,7 @@ p {
     font-weight: bold;
     color: white;
     width: 680px;
+    // @TODO: если больше двух маржинов - надо указыать в одну линию margin: 20px auto;
     margin: auto;
     margin-top: 20px;
     margin-bottom: 20px;

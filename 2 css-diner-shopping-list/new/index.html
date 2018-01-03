@@ -1,62 +1,84 @@
 <!DOCTYPE html>
 <html>
-    <head>
-      <meta charset="utf-8" />
-      <title>Dinner</title>
-      <link rel="stylesheet" href="main.css"
-    </head>
-    <body>
-        <header>
-            <div class="header-text-1">
-                CSS Diner Shopping List
+
+<head>
+    <meta charset="utf-8" />
+    <title>Dinner</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<!--@TODO: не все теги в хеде, используй Эммет для создания дефолтного документа, пути -->
+
+<body>
+    <header>
+        <!-- @TODO: название классов неправильные -->
+        <div class="header-text-1">
+            <!-- @TODO: нельзя ложить просто текст в див, его надо ложить в тег [p] -->
+            CSS Diner Shopping List
+        </div>
+        <div class="header-text-2">
+            Let's go to the mall!
+        </div>
+    </header>
+    <main>
+        <div class="block1">
+            <div class="container1">
+                <label>
+                    <input class="my-checkbox" type="checkbox">
+                    <span>A lot of pickles
+                        <span class="small">(for the next lessons about CSS)</span>
+                    </span>
+                </label>
             </div>
-            <div class="header-text-2">
-                Let's go to the mall!
+            <div class="container1">
+                <label>
+                    <input class="my-checkbox" type="checkbox">
+                    <span>10 apples
+                        <span class="small">(for more CSS manipulations)</span>
+                    </span>
+                </label>
             </div>
-        </header>
-        <main>
-            <div class="block1">
-                <div class="container1">
-                    <label>
-                        <input class="my-checkbox" type="checkbox"><span>A lot of pickles <span class="small">(for the next lessons about CSS)</span></span>
-                    </label>   
-                </div> 
-                <div class="container1">
-                    <label>
-                        <input class="my-checkbox" type="checkbox"><span>10 apples <span class="small">(for more CSS manipulations)</span></span>
-                    </label>
-                </div>    
-                <div class="container1">
-                    <label>
-                        <input class="my-checkbox" type="checkbox"><span>20 oranges <span class="small">(because they are awesome)</span></span>
-                    </label>
-                </div>    
-                <div class="container1">
-                    <label>
-                        <input class="my-checkbox" type="checkbox"><span>13 plates <span class="small">(hm... they always disappear)</span></span>
-                    </label>   
-                </div> 
-                <div class="container1">
-                    <label>
-                        <input class="my-checkbox" type="checkbox"><span>15 bentos</span>
-                    </label>
-                </div>    
-                <div class="container1">
-                    <label>
-                        <input class="my-checkbox" type="checkbox"><span>1 bottle of Sake ^_^ <span class="small">(for my frieds)</span></span>
-                    </label>   
-                </div>
-                <div>
-                    <input class="submit-1" type="submit" value="Bon appetit :)">
-                </div>
-                <!-- 
+            <div class="container1">
+                <label>
+                    <input class="my-checkbox" type="checkbox">
+                    <span>20 oranges
+                        <span class="small">(because they are awesome)</span>
+                    </span>
+                </label>
+            </div>
+            <div class="container1">
+                <label>
+                    <input class="my-checkbox" type="checkbox">
+                    <span>13 plates
+                        <span class="small">(hm... they always disappear)</span>
+                    </span>
+                </label>
+            </div>
+            <div class="container1">
+                <label>
+                    <input class="my-checkbox" type="checkbox">
+                    <span>15 bentos</span>
+                </label>
+            </div>
+            <div class="container1">
+                <label>
+                    <input class="my-checkbox" type="checkbox">
+                    <span>1 bottle of Sake ^_^
+                        <span class="small">(for my frieds)</span>
+                    </span>
+                </label>
+            </div>
+            <div>
+                <input class="submit-1" type="submit" value="Bon appetit :)">
+            </div>
+            <!-- 
                 <div class="submit-1">
                     <span>Bon appetit :)</span>
                 </div> -->
-            </div>
-        </main>
-        <footer>
-            <p>Copyright: AlyonaA</p>
-        </footer>
-    </body>
+        </div>
+    </main>
+    <footer>
+        <p>Copyright: AlyonaA</p>
+    </footer>
+</body>
+
 </html>

@@ -1,3 +1,5 @@
+// @TODO: нужно сбрасывать ouline у инпутов, добавлять ховер транзишн на оверлей и все ховеры
+
 body {
     overflow-x: hidden;
     min-width: 320px;
@@ -88,7 +90,7 @@ body {
     font-weight: 700;
 }
 .btn-green {
-    background-color: #48bf7200;
+    background-color: #48bf72;
     border: 2px solid #48bf72;
     color: #48bf72;
 }
@@ -259,6 +261,7 @@ body {
     font-weight: 400;
 }
 .about__text {
+    // @TODO: если очень хочешь задать height - надо его задать через min-height чтобы на адаптиве не ломалась вертска
     height: 220px;
     color:  #ffffff;
     font-size: 16px;
@@ -268,7 +271,7 @@ body {
     padding: 40px 0;
 }
 .about__btn {
-    background-color: #3c495500;
+    background-color: #3c4955;
     color:  #3c4955;
     border: 2px solid #3c4955;
     float: left;  /* как по другому? */
@@ -377,7 +380,7 @@ body {
     letter-spacing: 3px;
 }
 .form__btn:hover {
-    background-color: #48bf7200;
+    background-color: #48bf72;
     border: 3px solid #48bf72;
     color: #48bf72;
 }
@@ -506,5 +509,3 @@ body {
     color: #48bf72;
     font-size: 26px;
 }
-
-  
