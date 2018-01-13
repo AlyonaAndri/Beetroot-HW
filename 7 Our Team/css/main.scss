@@ -1,0 +1,18 @@
+// RESET
+@import "./parts/base/_reset.scss";
+
+// FONTS
+@import "./font-awesome.css";
+@import "./ionicons.css";
+@import "https://fonts.googleapis.com/css?family=Open+Sans:700|Raleway:400,500|Roboto:900";
+
+// BASE (variables, mixins, colors, helpers, base)
+@import "./parts/base/_colors.scss";
+@import "./parts/base/_helpers.scss";
+@import "./parts/base/_variables.scss";
+@import "./parts/base/_mixins.scss";
+@import "./parts/base/_base.scss";
+
+// SECTIONS
+@import "./parts/sections/_header.scss";
+@import "./parts/sections/_slider.scss";

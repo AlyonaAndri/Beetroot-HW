@@ -1,0 +1,39 @@
+.header {
+  padding-top: 100px;
+  text-align: center;
+  text-transform: uppercase;
+  &__description {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: $gray1;
+    line-height: 24px;
+  }
+  &__title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+    font-weight: 900;
+    color: $yellow;
+    line-height: 66px;
+    margin-bottom: 30px;
+  }
+  &__decor-line {
+    color: $yellow;
+    font-size: 20px;
+    background-color: $white;
+    position: relative;
+    display: inline-block;
+    padding: 0 10px;
+    &:after {
+      content: "";
+      position: absolute;
+      bottom: 50%;
+      left: 50%;
+      width: 450px;
+      height: 1px;
+      background-color: $yellow;
+      transform: translate(-50%, -50%);
+      z-index: -1;
+    }
+  }
+}

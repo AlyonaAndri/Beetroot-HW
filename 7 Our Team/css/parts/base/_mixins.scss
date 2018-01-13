@@ -1,0 +1,67 @@
+@mixin color-hover($color1, $color2) {
+  color: $color1;
+  background-color: $color2;
+  &:hover {
+    color: $color2;
+    background-color: $color1;
+  }
+}
+
+/* @mixin button($color1, $color2) {
+  color: $color1;
+  background-color: $color2;
+  &:hover {
+    color: $color2;
+    background-color: $color1;
+  }
+}
+
+@mixin transition($time: 0.3s) {
+  transition: all $time ease-in-out;
+}
+
+@mixin size($width, $height: $width) {
+  width: $width;
+  height: $height;
+}
+
+@mixin placeholder($color, $opacity: 1, $font-size: 14px, $font-family: Tahoma) {
+  &::-webkit-input-placeholder {
+    color: $color;
+    opacity: $opacity;
+    font-size: $font-size;
+    font-family: $font-family;
+    text-transform: none;
+  }
+  &:-moz-placeholder {
+    color: $color;
+    opacity: $opacity;
+    font-size: $font-size;
+    font-family: $font-family;
+    text-transform: none;
+  }
+  &::-moz-placeholder {
+    color: $color;
+    opacity: $opacity;
+    font-size: $font-size;
+    font-family: $font-family;
+    text-transform: none;
+  }
+  &:-ms-input-placeholder {
+    color: $color;
+    opacity: $opacity;
+    font-size: $font-size;
+    font-family: $font-family;
+    text-transform: none;
+  }
+}
+
+@mixin img($object-fit: cover) {
+  max-width: 100%;
+  height: auto;
+  @supports (object-fit: $object-fit) {
+    width: 100%;
+    height: 100%;
+    object-fit: $object-fit;
+  }
+} */
