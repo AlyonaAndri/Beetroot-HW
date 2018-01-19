@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Dailyform</title>
+  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="./styles/main.css">
+  <link rel="shortcut icon" href="./img/favicon.png">
+</head>
+<body>
+  <div class="form__background form">
+    <div class="form__wrapper">
+      <p class="form__title"><span class="icon-key"></span>Create your free account</p>
+      <p class="form__text">
+        Come and join our cool and amazing community, fill in your details to get started. Already have an account? <a href="#" class="form__color-link">Log in</a>
+      </p>
+      <form class="form__form">
+        <div class="form__group-field form__group-field--small">
+          <input class="form__input" type="text" name="fname" placeholder="First name">
+          <p class="form__group-error">Validation Error</p>
+        </div>
+        <div class="form__group-field form__group-field--small">
+          <input class="form__input" type="text" name="lname" placeholder="Last name">
+          <p class="form__group-error">Validation Error</p>
+        </div>
+        <div class="form__group-field">
+          <input class="form__input" type="email" name="email" placeholder="Email addres" required>
+          <p class="form__group-error">Validation Error</p>
+        </div>
+        <div class="form__group-field">
+          <input class="form__input" type="password" name="password" placeholder="Password">
+          <p class="form__group-error">Validation Error</p>
+        </div>
+        <button type="submit" class="form__btn">Sign up for free</button>
+      </form>
+      <p class="form__specification">
+        By clicking on “Sign up for free”, you agree to the <a href="#" class="form__color-link">Terms of Service</a> and the <a href="#" class="form__color-link">Privasy Policy</a>
+      </p>
+    </div>
+  </div>
+</body>
+</html>
