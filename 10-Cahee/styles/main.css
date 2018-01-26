@@ -29,14 +29,6 @@ button:hover {
 a {
   color: #262626; }
 
-/* @mixin color-hover($color1, $color2) {
-  color: $color1;
-  background-color: $color2;
-  &:hover {
-    color: $color2;
-    background-color: $color1;
-  }
-} */
 body {
   font: 300 17px/27px 'Raleway', sans-serif;
   color: #262626;
