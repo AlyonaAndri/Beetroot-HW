@@ -1,0 +1,95 @@
+.blog {
+  background-color: $purple;
+  &__wrapper {
+    height: 100%;
+    padding: 100px 15px 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  &__info {
+    max-width: 600px;
+    padding: 0 15px;
+    text-align: center;
+    margin-bottom: 45px;
+    color: $white;
+  }
+  &__title {
+    margin-bottom: 45px;
+  }
+  &__description {
+    font: 300 17px/25px 'Raleway', sans-serif;
+  }
+  &__block {
+    max-width: 1170px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  &__item {
+    max-width: 370px;
+    max-height: 310px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.5);
+    margin-bottom: 50px;
+    position: relative;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
+  }
+  &__overlay {
+    background: linear-gradient(to top, rgba(31, 31, 31, 1) 0%, rgba(0, 0, 0, 0) 80%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: $white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 20px;
+    cursor: pointer;
+    &:hover {
+      background-color: $darkGray;
+      opacity: 0.3;
+      transition: all 0.5s ease-in-out;
+    }
+  }
+  &__overlay-data {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    width: 60px;
+    height: 60px;
+    background-color: $darkGray0;
+    border-radius: 3px;
+    font: 700 32px/25px 'Raleway', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    &--heavy {
+      font: 900 21px/25px 'Raleway', sans-serif;
+    }
+  }
+  &__overlay-title {
+    font: 700 20px/25px 'Raleway', sans-serif;
+  }
+  &__overlay-author {
+    font: 300 13px/25px 'Raleway', sans-serif;
+  }
+}
+
+.btn__red {
+  background-color: $red;
+  padding: 0 40px;
+}

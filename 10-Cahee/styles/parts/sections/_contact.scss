@@ -1,0 +1,97 @@
+.contact {
+  background-color: $white;
+  background-image: url("../img/bg-contact.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  &__wrapper {
+    height: 100%;
+    padding: 100px 15px 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  &__info {
+    max-width: 380px;
+    padding: 0 15px;
+    text-align: center;
+    margin-bottom: 45px;
+  }
+  &__title {
+    margin-bottom: 40px;
+  }
+  &__description {
+    font: 300 17px/25px 'Raleway', sans-serif;
+  }
+  &__block {
+    max-width: 1170px;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }
+  &__form {
+    width: 50%;
+    min-width: 300px;
+  }
+  &__data {
+    width: 50%;
+    padding-left: 85px;
+  }
+}
+
+.form {
+  &__item {
+    max-width: 500px;
+    width: 100%;
+    height: 50px;
+    position: relative;
+    &:not(:last-child) {
+      margin-bottom: 15px;
+    }
+    input,
+    textarea {
+      background-color: $aqua0;
+      border: none;
+      width: 100%;
+      height: 100%;
+      padding: 20px;
+      font: 300 15px/25px 'Raleway', sans-serif;
+      transition: all 0.3s ease-in-out;
+      &:focus {
+        outline: none;
+        background-color: $aqua;
+        font: 700 15px/27px 'Raleway', sans-serif;
+        border-left: 5px solid $steelBlue;
+      }
+      &::-webkit-input-placeholder {color: $white;}
+      &::-moz-placeholder          {color: $white;}
+      &:-moz-placeholder           {color: $white;}
+      &:-ms-input-placeholder      {color: $white;}
+    }
+    &--big {
+      height: 250px;
+    }
+  }
+  &__error {
+    position: absolute;
+    left: 20px;
+    top: -20px;
+    color: $red;
+    opacity: 0;
+  }
+}
+
+.data {
+  &__item {
+    &:not(:last-child) {
+      margin-bottom: 10px;
+    }
+  }
+  &__name {
+    text-transform: uppercase;
+    font: 700 17px/25px 'Raleway', sans-serif;
+  }
+  &__info {
+    font: 300 20px/25px 'Raleway', sans-serif;
+  }
+}

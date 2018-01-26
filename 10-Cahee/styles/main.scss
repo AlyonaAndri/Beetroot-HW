@@ -1,0 +1,22 @@
+// RESET
+@import "./parts/base/_reset.scss";
+
+// FONTS
+@import "https://fonts.googleapis.com/css?family=Pacifico|Raleway:300,700,900";
+
+// BASE (variables, mixins, colors, helpers, base)
+@import "./parts/base/_colors.scss";
+@import "./parts/base/_helpers.scss";
+@import "./parts/base/_variables.scss";
+@import "./parts/base/_mixins.scss";
+@import "./parts/base/_base.scss";
+
+// SECTIONS
+@import "./parts/sections/_header.scss";
+@import "./parts/sections/_about.scss";
+@import "./parts/sections/_services.scss";
+@import "./parts/sections/_gallery.scss";
+@import "./parts/sections/_subscribe.scss";
+@import "./parts/sections/_blog.scss";
+@import "./parts/sections/_contact.scss";
+@import "./parts/sections/_footer.scss";

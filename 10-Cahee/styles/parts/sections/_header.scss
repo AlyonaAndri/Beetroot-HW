@@ -1,0 +1,87 @@
+.header {
+  background-color: $lightGray2;
+  display: flex;
+  &__background {
+    background-image: url("../img/bg-header.jpg");
+    width: 100%;
+    max-width: 1500px;
+    margin: auto;
+    height: 1000px;
+    background-size: cover;
+  }
+  &__wrapper {
+    height: 100%;
+    padding: 55px 15px 70px;
+    position: relative;
+  }
+  &__menu {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-bottom: 250px;
+  }
+  &__logo {
+   font: 400 50px/25px 'Pacifico', cursive;
+  }
+  &__nav {
+    width: 555px;
+    max-width: 670px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    font: 700 16px/25px 'Raleway', sans-serif;
+    text-transform: uppercase;
+  }
+  &__nav-item {
+    position: relative;
+    &--selected {
+      position: relative;
+      &:after {
+        content: "";
+        position: absolute;
+        top: -20%;
+        left: -2px;
+        height: 3px;
+        width: 100%;
+        background-color: $orange;
+      }
+    }
+    &:hover {
+      &:after {
+        content: "";
+        position: absolute;
+        top: -20%;
+        left: -2px;
+        height: 3px;
+        width: 100%;
+        background-color: $aqua0;
+      }
+    }
+  }
+  &__scroll {
+    position: absolute;
+    bottom: 70px;
+    left: 50%;
+    transform: transleteX(-50%);
+    &:hover {
+      -webkit-transform: scale(1.2);
+      -moz-transform: scale(1.2);
+      -o-transform: scale(1.2);
+    }
+  }
+}
+
+.info {
+  &__title-header {
+    font: 800 60px/25px 'Raleway', sans-serif;
+    margin-bottom: 35px;
+  }
+  &__text-header {
+    max-width: 370px;
+    margin-bottom: 25px;
+  }
+}
+
+.btn__orange {
+  background-color: $orange;
+}

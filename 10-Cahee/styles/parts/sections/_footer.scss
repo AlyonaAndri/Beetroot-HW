@@ -1,0 +1,28 @@
+.footer {
+  background-color: $darkGray;
+  &__wrapper {
+    width: 100%;
+    min-height: 90px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__info {
+    color: $lightGray;
+    font: 300 15px/25px 'Raleway', sans-serif;
+  }
+  &__logo {
+    a {
+      font: 400 25px/25px 'Pacifico', cursive;
+      color: $lightGray;
+    }
+  }
+  &__made {
+    a {
+      color: $pink;
+      font-weight: 700;
+    }
+
+  }
+}

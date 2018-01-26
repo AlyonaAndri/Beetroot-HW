@@ -1,0 +1,33 @@
+body {
+  font: 300 17px/27px 'Raleway', sans-serif;
+  color: $darkGray;
+  min-width: 320px;
+  overflow-x: hidden;
+}
+
+.wrapper {
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 1200px;
+}
+
+.btn {
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
+  height: 55px;
+  min-width: 170px;
+  font: 300 20px/27px 'Raleway', sans-serif;
+  padding: 0 25px;
+  text-transform: uppercase;
+  color: $white;
+}
+
+.info {
+  &__title {
+    font: 700 90px/0.8 'Raleway', sans-serif;
+    margin-bottom: 30px;
+  }
+  &__description span:not(:last-child) {
+    display: block;
+    margin-bottom: 15px;
+  }
+}
