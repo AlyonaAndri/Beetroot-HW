@@ -1,0 +1,66 @@
+.team {
+  background-image: url(../img/bg-info-banner.jpg);
+  background-size: cover;
+  &__wrapper {
+    height: 100%;
+    min-height: 580px;
+    position: relative;
+    &:after {
+      content: "btw";
+      position: absolute;
+      left: 0;
+      bottom: -33px;
+      color: $white;
+      font-size: 205px;
+      font-weight: 500;
+    }
+  }
+  &__block {
+    max-width: 500px;
+    padding: 35px 45px;
+    border: 2px solid $seaGreen;
+    background-color: $whiteOpasity;
+    font-size: 18px;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    &:before {
+      content: "";
+      position: absolute;
+      width: 25px;
+      height: 17px;
+      top: 35px;
+      left: -10px;
+      border-top: 2px solid $seaGreen;
+      border-right: 2px solid $seaGreen;
+      transform: rotate(45deg);
+    }
+  }
+  &__block-title {
+    font-size: 28px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+  }
+}
+
+.paginator {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  &__item {
+    display: flex;
+    width: 10px;
+    height: 10px;
+    border: 2px solid $seaGreen;
+    border-radius: 50%;
+    &:not(:last-of-type) {
+      margin-right: 8px;
+    }
+    &--active {
+      border-color: $coral;
+    }
+  }
+}

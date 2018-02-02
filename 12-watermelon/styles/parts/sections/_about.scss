@@ -1,0 +1,103 @@
+.about {
+  &__wrapper {
+    padding: 65px 15px 70px;
+  }
+  &__title {
+    font-size: 34px;
+    margin-bottom: 25px;
+  }
+  &__tab {
+    position: relative;
+  }
+  &__tab-header {
+    position: absolute;
+    top: -50px;
+    right: 0;
+  }
+  &__tab-control {
+    font-size: 16px;
+    font-weight: 700;
+    color: $lightGray;
+    text-transform: uppercase;
+    &:not(:last-of-type) {
+      margin-right: 20px;
+    }
+    &--active {
+      position: relative;
+      color: $text;
+      &:after {
+        position: absolute;
+        content: "";
+        width: 100%;
+        height: 2px;
+        background-color: $blue;
+        bottom: -4px;
+        left: 0;
+      }
+    }
+    &:hover {
+      position: relative;
+      &:after {
+        position: absolute;
+        content: "";
+        width: 100%;
+        height: 2px;
+        background-color: $blue;
+        bottom: -4px;
+        left: 0;
+      }
+    }
+  }
+  &__tab-body {
+
+  }
+  &__item-wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__item {
+    max-width: calc((100% - 90px) / 4);
+    border: 2px solid $seaGreen;
+    &:nth-of-type(2n) {
+      border-color: $coral;
+      & > .about__item-info {
+        background-color: $coral;
+      }
+    }
+    position: relative;
+    &:before {
+      content: "";
+      position: absolute;
+      top: -2px;
+      left: 0;
+      background-color: $white;
+      width: 7px;
+      height: 2px;
+      z-index: 2;
+    }
+  }
+  &__item-icon {
+    height: 150px;
+    width: 100%;
+    display: flex;
+    img {
+      max-width: 100%;
+      margin: auto;
+    }
+  }
+  &__item-info {
+    background-color: $seaGreen;
+    height: calc(100% - 150px);
+    padding: 20px 30px;
+    color: $white;
+    line-height: 20px;
+  }
+  &__item-name {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+  &__item-text {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,20 @@
+// RESET
+@import "./parts/base/_reset.scss";
+
+// FONTS
+@import "https://fonts.googleapis.com/css?family=Roboto:400,500,700&subset=cyrillic";
+@import "./font-awesome.css";
+
+// BASE (variables, mixins, colors, helpers, base)
+@import "./parts/base/_colors.scss";
+@import "./parts/base/_helpers.scss";
+@import "./parts/base/_variables.scss";
+@import "./parts/base/_mixins.scss";
+@import "./parts/base/_base.scss";
+
+// SECTIONS
+@import "./parts/sections/_header.scss";
+@import "./parts/sections/_about.scss";
+@import "./parts/sections/_team.scss";
+@import "./parts/sections/_portfolio.scss";
+@import "./parts/sections/_footer.scss";

@@ -1,0 +1,22 @@
+body {
+  font: 400 14px/1 'Roboto', Tahoma, Verdana, Segoe, sans-serif;
+  overflow-x: hidden;
+  min-width: 320px;
+  background-color: $white;
+  color: $text;
+}
+
+.wrapper {
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 1200px;
+}
+
+.btn {
+  font: 400 24px/2 'Roboto', Tahoma, Verdana, Segoe, sans-serif;
+  text-transform: uppercase;
+  color: $white;
+  text-align: center;
+  width: 100%;
+  transition: all 0.3 ease;
+}
