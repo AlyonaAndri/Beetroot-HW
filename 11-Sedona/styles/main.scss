@@ -1,0 +1,19 @@
+// RESET
+@import "./parts/base/_reset.scss";
+
+// FONTS
+@import "https://fonts.googleapis.com/css?family=Anton|Dynalight|PT+Sans:400,700|Paytone+One|Yesteryear";
+@import "./font-awesome.css";
+
+// BASE (variables, mixins, colors, helpers, base)
+@import "./parts/base/_colors.scss";
+@import "./parts/base/_helpers.scss";
+@import "./parts/base/_variables.scss";
+@import "./parts/base/_mixins.scss";
+@import "./parts/base/_base.scss";
+
+// SECTIONS
+@import "./parts/sections/_header.scss";
+@import "./parts/sections/_intro.scss";
+@import "./parts/sections/_main.scss";
+@import "./parts/sections/_footer.scss";

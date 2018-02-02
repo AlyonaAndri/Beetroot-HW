@@ -1,0 +1,215 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  &__name {
+    padding: 55px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  &__title {
+    @include text (21px);
+    font-weight: bold;
+    text-align: center;
+    max-width: 181px;
+    margin-bottom: 20px;
+    padding: 0 15px;
+    &--first {
+      margin-bottom: 35px;
+      max-width: 530px;
+    }
+    &--white {
+      color: $white;
+    }
+    &--second {
+      max-width: 480px;
+      font-size: 30px;
+    }
+  }
+  &__text {
+    @include text (14px, $gray);
+    text-align: center;
+    max-width: 312px;
+    margin-bottom: 20px;
+    padding: 0 15px;
+    line-height: 26px;
+    &--white {
+      color: $white;
+    }
+    &--first {
+      max-width: 530px;
+    }
+    &--second {
+      max-width: 480px;
+      margin-bottom: 0px;
+    }
+  }
+  &__reason {
+    display: flex;
+    flex-flow: row wrap;
+  }
+  &__reason-item {
+    width: calc(100% / 3);
+    min-height: 330px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    &--white {
+      min-height: 255px;
+      background-color: $blue;
+      color: $white;
+    }
+    &--gray-bg {
+      min-height: 255px;
+      background-color: $lightGray;
+    }
+  }
+  &__reason-picture {
+    width: calc(2 * (100% / 3));
+    height: 255px;
+    overflow: hidden;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  &__reason-number {
+    margin-bottom: 20px;
+    position: relative;
+    &:before {
+      position: absolute;
+      content: "";
+      top: 50%;
+      left: -15px;
+      transform: translateY(50%);
+      width: 9px;
+      height: 2px;
+      background-color: $gray;
+    }
+    &:after {
+      position: absolute;
+      content: "";
+      top: 50%;
+      right: -15px;
+      transform: translateY(50%);
+      width: 9px;
+      height: 2px;
+      background-color: $gray;
+    }
+    &--white {
+      &:before {
+        background-color: $white;
+      }
+      &:after {
+        background-color: $white;
+      }
+    }
+  }
+  &__reason-svg {
+    height: 75px;
+    margin-bottom: 30px;
+    path {
+      fill: $blue;
+    }
+  }
+}
+
+.search {
+  position: relative;
+  width: 570px;
+  display: flex;
+  &__main-btn {
+    max-width: 570px;
+    width: 100%;
+    background-color: $brown;
+    padding: 35px 15px;
+    @include text (21px, $white);
+    font-weight: bold;
+    &:hover {
+      background: darken($brown, 20%);
+    }
+    &--active {
+      &:active + .search__form {
+        opacity: 1;
+      }
+    }
+  }
+  &__form {
+    opacity: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translateY(100%);
+    width: 100%;
+    background-color: $white;
+    padding: 55px;
+    @include text ();
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  &__field {
+    label {
+      display: flex;
+      justify-content: space-between;
+    }
+    .search__datepicker {
+      max-width: 345px;
+      height: 38px;
+      background-color: $lightGray2;
+      padding: 0 15px;
+      margin-bottom: 30px;
+      &:focus {
+        border: 1px solid $grayBrown;
+      }
+    }
+    &--small {
+      margin-bottom: 50px;
+      label {
+        align-items: center;
+      }
+      .search__item-numder {
+        max-width: 38px;
+        height: 38px;
+        background-color: $lightGray2;
+        padding: 0 10px;
+        &:focus {
+          border: 1px solid $grayBrown;
+        }
+      }
+      .plus {
+        width: 38px;
+        height: 38px;
+        background-color: $lightGray2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .minus {
+        width: 38px;
+        height: 38px;
+        background-color: $lightGray2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+  &__btn {
+    max-width: 460px;
+    width: 100%;
+    height: 60px;
+    background-color: $blue;
+    padding: 20px 15px;
+    @include text (21px, $white);
+    font-weight: bold;
+    &:hover {
+      background: darken($blue, 20%);
+    }
+  }
+}

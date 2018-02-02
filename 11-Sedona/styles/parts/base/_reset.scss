@@ -1,0 +1,28 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+  outline: none;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+  border: none;
+  font-family: inherit;
+  outline: none;
+}
+
+input {
+  width: 100%;
+  border: none;
+  outline: none;
+}

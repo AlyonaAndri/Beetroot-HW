@@ -1,0 +1,5 @@
+@mixin text ($size: 14px, $color: $black, $text-transform: uppercase) {
+  font-size: $size;
+  color: $color;
+  text-transform: $text-transform;
+}

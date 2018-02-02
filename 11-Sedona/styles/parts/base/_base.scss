@@ -1,0 +1,12 @@
+body {
+  font-family: 'PT Sans', Tahoma, Verdana, Segoe, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.2;
+  color: $gray;
+  min-width: 320px;
+  overflow-x: hidden;
+  @media (max-width: 767px) {
+    padding-top: 283px;
+  }
+}

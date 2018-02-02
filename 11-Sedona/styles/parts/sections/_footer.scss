@@ -1,0 +1,47 @@
+.footer {
+  min-height: 590px;
+  background: url(../img/map.jpg) no-repeat center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  &__info {
+    min-height: 120px;
+    background-color: $white-opasity;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  &__hashtag {
+    @include text (21px);
+    font-weight: bold;
+  }
+  &__socials {
+    display: flex;
+    justify-content: space-around;
+    width: 153px;
+  }
+  &__social-item {
+    color: $white;
+    font-size: 22px;
+    width: 47px;
+    height: 48px;
+    background-color: $blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &:hover {
+      border: 1px solid $blue;
+      background-color: $white;
+      color: $blue;
+    }
+  }
+  &__author {
+    display: flex;
+    align-items: center;
+  }
+  &__author-name {
+    @include text ();
+    padding-right: 10px;
+  }
+}
