@@ -12,6 +12,19 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
+    &:not(:last-of-type) {
+      &:after {
+        content: "";
+        width: 300px;
+        height: 150px;
+        border-radius: 50%;
+        border-top: 1px solid $whiteOpasity;
+        position: absolute;
+        top: -70px;
+        left: 153px;
+      }
+    }
   }
   &__name {
     font-family: 'aleoregular', "Times New Roman", Times, serif;
@@ -27,16 +40,25 @@
   &--searh {
     path {
       fill: $blue;
+      &:hover {
+        fill: darken($blue, 20%)
+      }
     }
   }
   &--check {
     path {
       fill: $coral;
+      &:hover {
+        fill: darken($coral, 20%)
+      }
     }
   }
   &--like {
     path {
       fill: $aqua;
+      &:hover {
+        fill: darken($aqua, 20%)
+      }
     }
   }
 }

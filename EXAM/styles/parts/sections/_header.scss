@@ -41,6 +41,9 @@
     a {
       color: $white;
       text-transform: uppercase;
+      &:hover {
+        color: $darkGray;
+      }
     }
   }
   &__text {

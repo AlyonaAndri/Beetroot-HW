@@ -106,6 +106,8 @@ body {
     .header__nav a {
       color: #fff;
       text-transform: uppercase; }
+      .header__nav a:hover {
+        color: #232323; }
   .header__text {
     color: #fff; }
   .header__title {
@@ -215,6 +217,8 @@ body {
     height: 220px;
     object-fit: cover;
     margin-bottom: 5px; }
+    .why-us__photo-item:hover {
+      opacity: 0.6; }
   .why-us__photo-item1 {
     display: flex;
     justify-content: flex-start; }
@@ -234,7 +238,17 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center; }
+    align-items: center;
+    position: relative; }
+    .book__item:not(:last-of-type):after {
+      content: "";
+      width: 300px;
+      height: 150px;
+      border-radius: 50%;
+      border-top: 1px solid rgba(255, 255, 255, 0.5);
+      position: absolute;
+      top: -70px;
+      left: 153px; }
   .book__name {
     font-family: 'aleoregular', "Times New Roman", Times, serif;
     font-size: 36px;
@@ -246,10 +260,16 @@ body {
   margin-bottom: 30px; }
   .svg-icon--searh path {
     fill: #5474fd; }
+    .svg-icon--searh path:hover {
+      fill: #032ee8; }
   .svg-icon--check path {
     fill: #ff6363; }
+    .svg-icon--check path:hover {
+      fill: #fc0000; }
   .svg-icon--like path {
     fill: #00a2ff; }
+    .svg-icon--like path:hover {
+      fill: #006199; }
 
 .spain__left {
   background: url(../img/bg-section-villa.jpg) no-repeat center;
@@ -319,13 +339,14 @@ body {
     text-transform: uppercase;
     margin-bottom: 30px; }
   .tourist__feedback {
-    text-indent: 20px; }
-    .tourist__feedback::before {
-      font-family: "Font Awesome 5 Free";
-      font-weight: 400;
-      content: "\f10d";
-      color: #5474fd;
-      font-size: 30px; }
+    text-indent: 30px;
+    position: relative; }
+  .tourist__quote {
+    color: #5474fd;
+    font-size: 20px;
+    position: absolute;
+    top: -15px;
+    left: -55px; }
   .tourist__wrapper-tab {
     position: relative; }
   .tourist__tab {

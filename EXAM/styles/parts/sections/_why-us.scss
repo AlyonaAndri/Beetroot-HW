@@ -35,6 +35,9 @@
     height: 220px;
     object-fit: cover;
     margin-bottom: 5px;
+    &:hover {
+      opacity: 0.6;
+    }
   }
   &__photo-item1 {
     display: flex;
