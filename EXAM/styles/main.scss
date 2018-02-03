@@ -1,0 +1,29 @@
+// RESET
+@import "./parts/base/_reset.scss";
+
+// FONTS
+@import "./fontawesome-all.css";
+@import "./pe-icon-7-stroke.css";
+@import "https://fonts.googleapis.com/css?family=Josefin+Sans:400,700";
+@font-face {
+    font-family: 'aleoregular';
+    src: url('../webfonts/aleo-regular-webfont-webfont.woff2') format('woff2'),
+         url('../webfonts/aleo-regular-webfont-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+// BASE (variables, mixins, colors, helpers, base)
+@import "./parts/base/_colors.scss";
+@import "./parts/base/_helpers.scss";
+@import "./parts/base/_variables.scss";
+@import "./parts/base/_mixins.scss";
+@import "./parts/base/_base.scss";
+
+// SECTIONS
+@import "./parts/sections/_header.scss";
+@import "./parts/sections/_why-us.scss";
+@import "./parts/sections/_book.scss";
+@import "./parts/sections/_spain.scss";
+@import "./parts/sections/_tourist.scss";
+@import "./parts/sections/_footer.scss";

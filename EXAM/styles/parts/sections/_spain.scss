@@ -1,0 +1,48 @@
+.spain {
+  &__left {
+    background: url(../img/bg-section-villa.jpg) no-repeat center;
+    background-size: cover;
+  }
+  &__right {
+    background: url(../img/bg-section-sea.jpg) no-repeat center;
+    background-size: cover;
+  }
+  &__wrapper {
+    height: 100%;
+    min-height: 700px;
+    display: flex;
+    position: relative;
+  }
+  &__block {
+    max-width: 540px;
+    width: 100%;
+    padding: 50px 30px;
+    background-color: $blackOpasity;
+  }
+  &__name {
+    font-size: 20px;
+    letter-spacing: 0.08em;
+    margin-bottom: 30px;
+  }
+  &__title {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+  }
+  &__text {
+    margin-bottom: 45px;
+  }
+  &__left-block {
+    position: absolute;
+    left: 0;
+    bottom: 100px;
+  }
+  &__right-block {
+    position: absolute;
+    right: 0;
+    bottom: 100px;
+  }
+  &__btn {
+    margin-bottom: 50px;
+  }
+}

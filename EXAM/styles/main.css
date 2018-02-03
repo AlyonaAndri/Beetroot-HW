@@ -1,0 +1,533 @@
+@import url(./fontawesome-all.css);
+@import url(./pe-icon-7-stroke.css);
+@import "https://fonts.googleapis.com/css?family=Josefin+Sans:400,700";
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+a,
+button {
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+  outline: none;
+  text-decoration: none;
+  border: none; }
+
+input {
+  border: none;
+  outline: none; }
+
+/* li {
+  list-style: none;
+}
+
+a,
+button {
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+  outline: none;
+  text-decoration: none;
+  border: none;
+}
+
+a {
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+button {
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border: none;
+    font: inherit;
+}
+img {
+    display: block;
+}
+input,
+textarea {
+  width: 100%;
+  height: 100%;
+  background-color:  #f1f1f1;
+}
+textarea {
+  resize: none;
+  font-family: none;
+}
+input::-webkit-input-placeholder {
+    color: #a6a5a5;
+}
+input::-moz-placeholder {
+    color: #a6a5a5;
+}
+input:-moz-placeholder {
+    color: #a6a5a5;
+}
+input:-ms-input-placeholder {
+    color: #a6a5a5;
+}
+textarea::-webkit-input-placeholder {
+    color: #a6a5a5;
+}
+textarea::-moz-placeholder {
+    color: #a6a5a5;
+}
+textarea:-moz-placeholder {
+    color: #a6a5a5;
+}
+textarea:-ms-input-placeholder {
+    color: #a6a5a5;
+}
+ */
+/* html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+HTML5 display-role reset for older browsers
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+} */
+@font-face {
+  font-family: 'aleoregular';
+  src: url("../webfonts/aleo-regular-webfont-webfont.woff2") format("woff2"), url("../webfonts/aleo-regular-webfont-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+/* @mixin color-hover($color1, $color2) {
+  color: $color1;
+  background-color: $color2;
+  &:hover {
+    color: $color2;
+    background-color: $color1;
+  }
+}
+
+@mixin text ($size: 14px, $color: $black, $text-transform: uppercase) {
+  font-size: $size;
+  color: $color;
+  text-transform: $text-transform;
+}
+
+@mixin button($color1, $color2) {
+  color: $color1;
+  background-color: $color2;
+  &:hover {
+    color: $color2;
+    background-color: $color1;
+  }
+}
+
+@mixin transition($time: 0.3s) {
+  transition: all $time ease-in-out;
+}
+
+@mixin size($width, $height: $width) {
+  width: $width;
+  height: $height;
+}
+
+@mixin placeholder($color, $opacity: 1, $font-size: 14px, $font-family: Tahoma) {
+  &::-webkit-input-placeholder {
+    color: $color;
+    opacity: $opacity;
+    font-size: $font-size;
+    font-family: $font-family;
+    text-transform: none;
+  }
+  &:-moz-placeholder {
+    color: $color;
+    opacity: $opacity;
+    font-size: $font-size;
+    font-family: $font-family;
+    text-transform: none;
+  }
+  &::-moz-placeholder {
+    color: $color;
+    opacity: $opacity;
+    font-size: $font-size;
+    font-family: $font-family;
+    text-transform: none;
+  }
+  &:-ms-input-placeholder {
+    color: $color;
+    opacity: $opacity;
+    font-size: $font-size;
+    font-family: $font-family;
+    text-transform: none;
+  }
+}
+
+@mixin img($object-fit: cover) {
+  max-width: 100%;
+  height: auto;
+  @supports (object-fit: $object-fit) {
+    width: 100%;
+    height: 100%;
+    object-fit: $object-fit;
+  }
+} */
+body {
+  font-family: 'Josefin Sans', Tahoma, Verdana, Segoe, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  min-width: 320px;
+  overflow-x: hidden;
+  color: #e8e8e8;
+  background-color: #232323; }
+
+.wrapper {
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 1140px; }
+
+.title {
+  font-family: 'aleoregular', "Times New Roman", Times, serif;
+  font-size: 36px;
+  color: #fff;
+  line-height: 1; }
+
+.text {
+  letter-spacing: 0.1em; }
+  .text span {
+    display: inline-block; }
+    .text span:not(:last-of-type) {
+      margin-bottom: 30px; }
+
+.btn {
+  width: 225px;
+  height: 60px;
+  background-color: #5474fd;
+  font-family: 'aleoregular', "Times New Roman", Times, serif;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 0.08em;
+  /*   display: flex;
+  justify-content: space-around;
+  align-items: center; */
+  padding: 0 20px; }
+  .btn:hover {
+    background: #224bfc; }
+
+/*   font: 400 16px/1.9 'Lato', Tahoma, Verdana, Segoe, sans-serif;
+font: 400 22px/1.3 'Lato', Tahoma, Verdana, Segoe, sans-serif;
+font-family: 'Josefin Sans', sans-serif;*/
+/* font-family: 'aleoregular', "Times New Roman", Times, serif; */
+.header {
+  background: url(../img/bg-header.jpg) no-repeat center;
+  background-size: cover;
+  position: relative; }
+  .header__wrapper {
+    height: 100%;
+    min-height: 820px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .header__menu-wrapper {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+  .header__menu {
+    background-color: #5474fd;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0; }
+  .header__logo {
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase; }
+  .header__nav {
+    font-family: 'aleoregular', "Times New Roman", Times, serif;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 540px;
+    width: 100%; }
+    .header__nav a {
+      color: #fff;
+      text-transform: uppercase; }
+  .header__text {
+    color: #fff; }
+  .header__title {
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1;
+    letter-spacing: 0.1em; }
+  .header__sudtitle {
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 0.3em;
+    margin-bottom: 50px; }
+  .header__searh {
+    max-width: 655px;
+    width: 100%;
+    height: 60px;
+    background-color: #fff;
+    position: relative;
+    margin-bottom: 120px; }
+    .header__searh input {
+      width: 100%;
+      height: 100%;
+      padding: 0 15px;
+      padding-right: 150px; }
+      .header__searh input::-webkit-input-placeholder {
+        color: #999999;
+        font: 400 14px/26px 'Josefin Sans', Tahoma, Verdana, Segoe, sans-serif;
+        letter-spacing: 0.20em;
+        text-align: center; }
+      .header__searh input::-moz-placeholder {
+        color: #999999;
+        font: 400 14px/26px 'Josefin Sans', Tahoma, Verdana, Segoe, sans-serif;
+        letter-spacing: 0.20em;
+        text-align: center; }
+      .header__searh input:-moz-placeholder {
+        color: #999999;
+        font: 400 14px/26px 'Josefin Sans', Tahoma, Verdana, Segoe, sans-serif;
+        letter-spacing: 0.20em;
+        text-align: center; }
+      .header__searh input:-ms-input-placeholder {
+        color: #999999;
+        font: 400 14px/26px 'Josefin Sans', Tahoma, Verdana, Segoe, sans-serif;
+        letter-spacing: 0.20em;
+        text-align: center; }
+      .header__searh input:focus {
+        border: 1px solid #5474fd; }
+  .header__searh-btn {
+    position: absolute;
+    right: 2px;
+    bottom: 2px;
+    width: 146px;
+    height: 56px;
+    background-color: #5474fd;
+    font-family: 'aleoregular', "Times New Roman", Times, serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 20px; }
+    .header__searh-btn:hover {
+      background: #224bfc; }
+  .header__scroll {
+    font-size: 14px; }
+
+.pe-7s-search:before {
+  content: "\e618";
+  color: #fff;
+  font-size: 25px; }
+
+.pe-7s-angle-down:before {
+  content: "\e688";
+  color: #fff;
+  font-size: 30px; }
+
+.why-us {
+  background: url(../img/bg-why-us.jpg) no-repeat center;
+  background-size: cover; }
+  .why-us__wrapper {
+    height: 100%;
+    min-height: 680px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+  .why-us__info {
+    width: 50%;
+    height: 100%;
+    padding-right: 15px; }
+  .why-us__photo {
+    width: 50%;
+    height: 100%; }
+  .why-us__title {
+    margin-bottom: 60px; }
+  .why-us__text {
+    margin-bottom: 45px; }
+  .why-us__photo {
+    padding-left: 65px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+  .why-us__photo-item {
+    max-width: 350px;
+    height: 220px;
+    object-fit: cover;
+    margin-bottom: 5px; }
+  .why-us__photo-item1 {
+    display: flex;
+    justify-content: flex-start; }
+  .why-us__photo-item2 {
+    display: flex;
+    justify-content: flex-end; }
+
+.book {
+  background-color: #333; }
+  .book__wrapper {
+    height: 335px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around; }
+  .book__item {
+    max-width: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .book__name {
+    font-family: 'aleoregular', "Times New Roman", Times, serif;
+    font-size: 36px;
+    color: #e8e8e8;
+    letter-spacing: 0.08em; }
+
+.svg-icon {
+  height: 70px;
+  margin-bottom: 30px; }
+  .svg-icon--searh path {
+    fill: #5474fd; }
+  .svg-icon--check path {
+    fill: #ff6363; }
+  .svg-icon--like path {
+    fill: #00a2ff; }
+
+.spain__left {
+  background: url(../img/bg-section-villa.jpg) no-repeat center;
+  background-size: cover; }
+.spain__right {
+  background: url(../img/bg-section-sea.jpg) no-repeat center;
+  background-size: cover; }
+.spain__wrapper {
+  height: 100%;
+  min-height: 700px;
+  display: flex;
+  position: relative; }
+.spain__block {
+  max-width: 540px;
+  width: 100%;
+  padding: 50px 30px;
+  background-color: rgba(0, 0, 0, 0.7); }
+.spain__name {
+  font-size: 20px;
+  letter-spacing: 0.08em;
+  margin-bottom: 30px; }
+.spain__title {
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-bottom: 30px; }
+.spain__text {
+  margin-bottom: 45px; }
+.spain__left-block {
+  position: absolute;
+  left: 0;
+  bottom: 100px; }
+.spain__right-block {
+  position: absolute;
+  right: 0;
+  bottom: 100px; }
+.spain__btn {
+  margin-bottom: 50px; }
+
+.tourist {
+  background: url(../img/bg-tourist-say.jpg) no-repeat center;
+  background-size: cover; }
+  .tourist__wrapper {
+    min-height: 730px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+  .tourist__title {
+    margin-bottom: 100px; }
+  .tourist__item {
+    display: flex;
+    width: 100%; }
+  .tourist__photo {
+    width: calc(100% / 3);
+    object-fit: cover; }
+  .tourist__info {
+    background-color: #333;
+    width: calc(2 * (100% / 3)); }
+
+.tourist__tab-control {
+  background: none; }
+
+.pe-7s-angle-left:before {
+  content: "\e686";
+  color: #fff; }
+
+.pe-7s-angle-right:before {
+  content: "\e684";
+  color: #fff; }
+
+.footer {
+  background-color: #232323; }
+  .footer__wrapper {
+    min-height: 265px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .footer__title {
+    padding-top: 120px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1;
+    letter-spacing: 0.14em; }
+  .footer__subtitle {
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0.08em;
+    margin-bottom: 25px; }
+  .footer__socials {
+    display: flex; }
+    .footer__socials a {
+      color: #fff;
+      font-size: 22px; }
+      .footer__socials a:not(:last-of-type) {
+        margin-right: 20px; }
+      .footer__socials a:hover {
+        color: #5474fd; }
+
+/*# sourceMappingURL=main.css.map */

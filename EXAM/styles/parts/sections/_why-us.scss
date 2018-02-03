@@ -1,0 +1,47 @@
+.why-us {
+  background: url(../img/bg-why-us.jpg) no-repeat center;
+  background-size: cover;
+  &__wrapper {
+    height: 100%;
+    min-height: 680px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__info {
+    width: 50%;
+    height: 100%;
+    padding-right: 15px;
+  }
+  &__photo {
+    width: 50%;
+    height: 100%;
+  }
+  &__title {
+    margin-bottom: 60px;
+  }
+  &__text {
+    margin-bottom: 45px;
+  }
+  &__photo {
+    padding-left: 65px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  &__photo-item {
+    max-width: 350px;
+    height: 220px;
+    object-fit: cover;
+    margin-bottom: 5px;
+  }
+  &__photo-item1 {
+    display: flex;
+    justify-content: flex-start;
+  }
+  &__photo-item2 {
+    display: flex;
+    justify-content: flex-end;
+  }
+}

@@ -1,0 +1,42 @@
+.book {
+  background-color: $darkBrown;
+  &__wrapper {
+    height: 335px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  &__item {
+    max-width: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  &__name {
+    font-family: 'aleoregular', "Times New Roman", Times, serif;
+    font-size: 36px;
+    color: $gray;
+    letter-spacing: 0.08em;
+  }
+}
+
+.svg-icon {
+  height: 70px;
+  margin-bottom: 30px;
+  &--searh {
+    path {
+      fill: $blue;
+    }
+  }
+  &--check {
+    path {
+      fill: $coral;
+    }
+  }
+  &--like {
+    path {
+      fill: $aqua;
+    }
+  }
+}
