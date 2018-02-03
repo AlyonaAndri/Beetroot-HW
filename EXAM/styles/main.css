@@ -273,8 +273,10 @@ font-family: 'Josefin Sans', sans-serif;*/
     left: 0; }
   .header__logo {
     font-size: 24px;
-    font-weight: 700;
-    text-transform: uppercase; }
+    font-weight: 700; }
+    .header__logo a {
+      color: #fff;
+      text-transform: uppercase; }
   .header__nav {
     font-family: 'aleoregular', "Times New Roman", Times, serif;
     font-size: 14px;
@@ -444,7 +446,7 @@ font-family: 'Josefin Sans', sans-serif;*/
 .spain__block {
   max-width: 540px;
   width: 100%;
-  padding: 50px 30px;
+  padding: 50px 30px 0 30px;
   background-color: rgba(0, 0, 0, 0.7); }
 .spain__name {
   font-size: 20px;
@@ -480,24 +482,54 @@ font-family: 'Josefin Sans', sans-serif;*/
     margin-bottom: 100px; }
   .tourist__item {
     display: flex;
-    width: 100%; }
+    width: 100%;
+    min-height: 280px; }
   .tourist__photo {
-    width: calc(100% / 3);
+    width: 40%;
     object-fit: cover; }
+    .tourist__photo img {
+      height: 100%; }
   .tourist__info {
+    display: flex;
+    flex-direction: column;
     background-color: #333;
-    width: calc(2 * (100% / 3)); }
-
-.tourist__tab-control {
-  background: none; }
+    width: 60%;
+    padding: 45px 55px; }
+  .tourist__name {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 30px; }
+  .tourist__feedback {
+    text-indent: 20px; }
+    .tourist__feedback::before {
+      font-family: "Font Awesome 5 Free";
+      font-weight: 400;
+      content: "\f10d";
+      color: #5474fd;
+      font-size: 30px; }
+  .tourist__wrapper-tab {
+    position: relative; }
+  .tourist__tab {
+    position: absolute;
+    bottom: -90px;
+    right: 0; }
+  .tourist__tab-control {
+    width: 80px;
+    height: 50px;
+    background: none;
+    border: 2px solid #fff; }
+    .tourist__tab-control:hover {
+      background-color: rgba(255, 255, 255, 0.5); }
 
 .pe-7s-angle-left:before {
   content: "\e686";
-  color: #fff; }
+  color: #fff;
+  font-size: 50px; }
 
 .pe-7s-angle-right:before {
   content: "\e684";
-  color: #fff; }
+  color: #fff;
+  font-size: 50px; }
 
 .footer {
   background-color: #232323; }

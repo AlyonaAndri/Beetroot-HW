@@ -14,30 +14,65 @@
   &__item {
     display: flex;
     width: 100%;
+    min-height: 280px;
   }
   &__photo {
-    width: calc(100% / 3);
+    width: 40%;
     object-fit: cover;
+    img {
+      height: 100%;
+    }
   }
   &__info {
+    display: flex;
+    flex-direction: column;
     background-color: $darkBrown;
-    width: calc(2 * (100% / 3));
+    width: 60%;
+    padding: 45px 55px;
   }
+  &__name {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+  }
+  &__feedback {
+    text-indent: 20px;
+    &::before {
+      font-family: "Font Awesome 5 Free";
+      font-weight: 400;
+      content: "\f10d";
+      color: $blue;
+      font-size: 30px;
+    }
+  }
+  &__wrapper-tab {
+    position: relative;
+  }
+  &__tab {
+    position: absolute;
+    bottom: -90px;
+    right: 0;
+  }
+  &__tab-control {
+    width: 80px;
+    height: 50px;
+    background: none;
+    border: 2px solid $white;
+    &:hover {
+      background-color: $whiteOpasity;
+    }
+  }
+
 }
 
-
-
-
-
-.tourist__tab-control {
-  background: none;
-}
 .pe-7s-angle-left:before {
   content: "\e686";
   color: $white;
+  font-size: 50px;
 }
 
 .pe-7s-angle-right:before {
   content: "\e684";
   color: $white;
+  font-size: 50px;
 }
