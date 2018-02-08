@@ -15,6 +15,12 @@
     text-transform: uppercase;
     line-height: 1;
     letter-spacing: 0.14em;
+    a {
+      color: $white;
+      &:hover {
+        color: $blue;
+      }
+    }
   }
   &__subtitle {
     font-size: 16px;

@@ -12,6 +12,10 @@
     min-height: 700px;
     display: flex;
     position: relative;
+    @media (max-width: 590px) {
+      justify-content: center;
+      align-items: center;
+    }
   }
   &__block {
     max-width: 540px;
@@ -34,13 +38,19 @@
   }
   &__left-block {
     position: absolute;
-    left: 0;
+    left: 15px;
     bottom: 100px;
+    @media (max-width: 590px) {
+      position: static;
+    }
   }
   &__right-block {
     position: absolute;
-    right: 0;
+    right: 15px;
     bottom: 100px;
+    @media (max-width: 590px) {
+      position: static;
+    }
   }
   &__btn {
     margin-bottom: 50px;

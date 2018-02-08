@@ -8,15 +8,20 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    @media (max-width: 878px) {
+      flex-direction: column;
+      padding-top: 50px;
+    }
   }
   &__info {
     width: 50%;
     height: 100%;
     padding-right: 15px;
-  }
-  &__photo {
-    width: 50%;
-    height: 100%;
+    @media (max-width: 878px) {
+      text-align: center;
+      margin-bottom: 50px;
+      width: 100%;
+    }
   }
   &__title {
     margin-bottom: 60px;
@@ -25,10 +30,17 @@
     margin-bottom: 45px;
   }
   &__photo {
+    width: 50%;
+    height: 100%;
     padding-left: 65px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    @media (max-width: 878px) {
+      margin-bottom: 50px;
+      width: 100%;
+      padding-left: 0;
+    }
   }
   &__photo-item {
     max-width: 350px;
@@ -42,9 +54,15 @@
   &__photo-item1 {
     display: flex;
     justify-content: flex-start;
+    @media (max-width: 395px) {
+      justify-content: center;
+    }
   }
   &__photo-item2 {
     display: flex;
     justify-content: flex-end;
+    @media (max-width: 395px) {
+      justify-content: center;
+    }
   }
 }
