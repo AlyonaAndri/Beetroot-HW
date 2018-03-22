@@ -1,0 +1,33 @@
+.contact {
+  &__wrapper {
+    padding: 75px 15px 0 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+  &__title {
+    font-family: 'Source Sans Pro', Tahoma, Verdana, Segoe, sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: $darkGray;
+    margin-bottom: 25px;
+  }
+  &__subtitle {
+    max-width: 470px;
+    text-align: center;
+  }
+  &__google-api {
+    height: 440px;
+    width: 100%;
+  }
+}

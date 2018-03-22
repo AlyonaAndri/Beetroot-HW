@@ -1,0 +1,24 @@
+// RESET
+@import "./base/_reset.scss";
+@import "../../node_modules/slick-carousel/slick/slick.scss";
+@import "../../node_modules/slick-carousel/slick/slick-theme.scss";
+
+// FONTS
+@import "./fontawesome-all.css";
+@import "https://fonts.googleapis.com/css?family=Open+Sans:400,700|Source+Sans+Pro:300";
+
+// BASE (variables, mixins, colors, helpers, base)
+@import "./base/_colors.scss";
+@import "./base/_helpers.scss";
+@import "./base/_variables.scss";
+@import "./base/_mixins.scss";
+@import "./base/_base.scss";
+
+// SECTIONS
+@import "./sections/_header.scss";
+@import "./sections/_portfolio.scss";
+@import "./sections/_team.scss";
+@import "./sections/_lets-talk.scss";
+@import "./sections/_testimonials.scss";
+@import "./sections/_contact.scss";
+@import "./sections/_footer.scss";

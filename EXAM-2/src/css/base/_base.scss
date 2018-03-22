@@ -1,0 +1,16 @@
+body {
+  font-family: 'Open Sans', Tahoma, Verdana, Segoe, sans-serif;
+  font-size: 14px;
+  line-height: 25px;
+  font-weight: 400;
+  min-width: 320px;
+  overflow-x: hidden;
+  color: $gray;
+  background-color: $white;
+}
+
+.wrapper {
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 1170px;
+}

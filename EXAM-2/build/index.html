@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bouncy</title>
+    <link rel="shortcut icon" href="./img/favicon.png">
+    <link rel="stylesheet" href="./css/main.css">
+  </head>
+
+  <body>
+
+      <header id="header" class="header">
+        <div class="header__wrapper wrapper">
+          <div class="header__menu">
+            <div class="header__menu-wrapper wrapper">
+              <div class="header__logo">
+                <a href="#"><img src="./img/logo1.png" alt="logo"></a>
+              </div>
+              <nav class="header__nav">
+                <a href="#header">Hello</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#team">Team</a>
+                <a href="#contact">Contact</a>
+              </nav>
+            </div>
+          </div>
+          <div class="header__info">
+            <p class="header__title">We Are Code Cafe</p>
+            <p class="header__subtitle">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum</p>
+          </div>
+          <a href="#portfolio" class="header__btn"><i class="fas fa-chevron-down"></i></a>
+        </div>
+      </header>
+      <section id="portfolio" class="portfolio">
+        <div class="portfolio__wrapper wrapper">
+          <div class="portfolio__info">
+            <p class="portfolio__title">THE portfolio</p>
+            <p class="portfolio__subtitle">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
+          </div>
+          <div class="portfolio__btn-group filter-btn-group">
+            <button class="portfolio__btn-item active" data-filter="*">All Works</button>
+            <button class="portfolio__btn-item" data-filter=".print">Print</button>
+            <button class="portfolio__btn-item" data-filter=".branding">Branding</button>
+            <button class="portfolio__btn-item" data-filter=".web">Web</button>
+            <button class="portfolio__btn-item" data-filter=".html1">HTML</button>
+          </div>
+          <div class="portfolio__item item-masonry">
+            <div id="item-masonry" class="item-masonry">
+              <div class="item-masonry__item sizer4 print">
+                <img src="./img/fiter1.png" alt="img1">
+                <div class="item-masonry__item--cover">
+                  <a class="btn--show-modal">
+                    <i class="fas fa-search-plus"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="item-masonry__item  sizer4 branding">
+                <img src="./img/filter2.png" alt="img1">
+                <div class="item-masonry__item--cover">
+                  <a class="btn--show-modal">
+                    <i class="fas fa-search-plus"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="item-masonry__item  sizer4 print">
+                <img src="./img/filter3.png" alt="img1">
+                <div class="item-masonry__item--cover">
+                  <a class="btn--show-modal">
+                    <i class="fas fa-search-plus"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="item-masonry__item  sizer4 html1 print">
+                <img src="./img/filter4.png" alt="img1">
+                <div class="item-masonry__item--cover">
+                  <a class="btn--show-modal">
+                    <i class="fas fa-search-plus"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="item-masonry__item  sizer4 print">
+                <img src="./img/filter6.png" alt="img1">
+                <div class="item-masonry__item--cover">
+                  <a class="btn--show-modal">
+                    <i class="fas fa-search-plus"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="item-masonry__item sizer4 branding print">
+                <img src="./img/filter7.png" alt="img1">
+                <div class="item-masonry__item--cover">
+                  <a class="btn--show-modal">
+                    <i class="fas fa-search-plus"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="item-masonry__item sizer4 web">
+                <img src="./img/filter5.png" alt="img1">
+                <div class="item-masonry__item--cover">
+                  <a class="btn--show-modal">
+                    <i class="fas fa-search-plus"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="item-masonry__item sizer4 html1">
+                <img src="./img/filter8.png" alt="img1">
+                <div class="item-masonry__item--cover">
+                  <a class="btn--show-modal">
+                    <i class="fas fa-search-plus"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="item-masonry__item sizer4 web">
+                <img src="./img/filter10.png" alt="img1">
+                <div class="item-masonry__item--cover">
+                  <a class="btn--show-modal">
+                    <i class="fas fa-search-plus"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="item-masonry__item sizer4 branding">
+                <img src="./img/filter12.png" alt="img1">
+                <div class="item-masonry__item--cover">
+                  <a class="btn--show-modal">
+                    <i class="fas fa-search-plus"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="item-masonry__item sizer4 html1">
+                <img src="./img/filter11.png" alt="img1">
+                <div class="item-masonry__item--cover">
+                  <a class="btn--show-modal">
+                    <i class="fas fa-search-plus"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="item-masonry__item sizer4 web">
+                <img src="./img/filter9.png" alt="img1">
+                <div class="item-masonry__item--cover">
+                  <a class="btn--show-modal">
+                    <i class="fas fa-search-plus"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- modal-window -->
+      <div id="modal" class="modal">
+        <div class="modal__container">
+          <div class="modal__wrapper">
+            <div class="modal__header">
+              <button class="modal__btn--close">&times</button>
+            </div>
+            <div class="modal__body">
+              <div id="modal__slider" class="modal__slider">
+                <div class="modal__slider-item">
+                  <div class="modal__slider-item-custom">
+                    <img src="./img/fiter1.png" alt="slider1">
+                  </div>
+                </div>
+                <div class="modal__slider-item">
+                  <div class="modal__slider-item-custom">
+                    <img src="./img/filter2.png" alt="slider1">
+                  </div>
+                </div>
+                <div class="modal__slider-item">
+                  <div class="modal__slider-item-custom">
+                    <img src="./img/filter3.png" alt="slider1">
+                  </div>
+                </div>
+                <div class="modal__slider-item">
+                  <div class="modal__slider-item-custom">
+                    <img src="./img/filter4.png" alt="slider1">
+                  </div>
+                </div>
+                <div class="modal__slider-item">
+                  <div class="modal__slider-item-custom">
+                    <img src="./img/filter5.png" alt="slider1">
+                  </div>
+                </div>
+                <div class="modal__slider-item">
+                  <div class="modal__slider-item-custom">
+                    <img src="./img/filter6.png" alt="slider1">
+                  </div>
+                </div>
+                <div class="modal__slider-item">
+                  <div class="modal__slider-item-custom">
+                    <img src="./img/filter7.png" alt="slider1">
+                  </div>
+                </div>
+                <div class="modal__slider-item">
+                  <div class="modal__slider-item-custom">
+                    <img src="./img/filter8.png" alt="slider1">
+                  </div>
+                </div>
+                <div class="modal__slider-item">
+                  <div class="modal__slider-item-custom">
+                    <img src="./img/filter9.png" alt="slider1">
+                  </div>
+                </div>
+                <div class="modal__slider-item">
+                  <div class="modal__slider-item-custom">
+                    <img src="./img/filter10.png" alt="slider1">
+                  </div>
+                </div>
+                <div class="modal__slider-item">
+                  <div class="modal__slider-item-custom">
+                    <img src="./img/filter11.png" alt="slider1">
+                  </div>
+                </div>
+                <div class="modal__slider-item">
+                  <div class="modal__slider-item-custom">
+                    <img src="./img/filter12.png" alt="slider1">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section id="team" class="team">
+        <div class="team__wrapper wrapper">
+          <div class="team__info">
+            <p class="team__title">THE TEAM</p>
+            <p class="team__subtitle">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
+          </div>
+          <div id="team__slider" class="team__slider">
+            <div class="team__slider-item">
+              <div class="team__slider-custome-wrapper">
+                <div class="team__slider-img-container">
+                  <img src="./img/slider1-1.png" alt="slider1">
+                </div>
+                <div class="team__slider-info-container" ss-container>
+                  <p class="team__slider-info-name">Abdullah Noman</p>
+                  <p class="team__slider-info-job">Creative Director, Code Cafe</p>
+                  <p class="team__slider-info-text">T accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium.At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos e blanditiis praesentium.At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium.</p>
+                </div>
+              </div>
+            </div>
+            <div class="team__slider-item">
+              <div class="team__slider-custome-wrapper">
+                <div class="team__slider-img-container">
+                  <img src="./img/slider1-2.jpg" alt="slider2">
+                </div>
+                <div class="team__slider-info-container">
+                  <p class="team__slider-info-name">Rehana Utova</p>
+                  <p class="team__slider-info-job">Manager, Code Cafe</p>
+                  <p class="team__slider-info-text">Os et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium.At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos et accusamus et iusto odio dignissimos ducimus qui blAt vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium.At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium.</p>
+                </div>
+              </div>
+            </div>
+            <div class="team__slider-item">
+              <div class="team__slider-custome-wrapper">
+                <div class="team__slider-img-container">
+                  <img src="./img/slider1-3.jpg" alt="slider3">
+                </div>
+                <div class="team__slider-info-container">
+                  <p class="team__slider-info-name">Vasya Pupkin</p>
+                  <p class="team__slider-info-job">Not Director, Cafe</p>
+                  <p class="team__slider-info-text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium.At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="lets-talk">
+        <div class="lets-talk__wrapper wrapper">
+          <p class="lets-talk__title">Already Loved Us? Let’s talk!</p>
+          <a href="#contact" class="lets-talk__btn">Contact Us</a>
+        </div>
+      </section>
+      <section id="testimonials" class="testimonials">
+        <div class="testimonials__wrapper wrapper">
+          <div class="testimonials__info">
+            <p class="testimonials__title">testimonials</p>
+            <p class="testimonials__subtitle">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
+          </div>
+          <div class="testimonials__slider-wrapper">
+            <div id="testimonials__slider" class="testimonials__slider">
+              <div class="testimonials__slider-item">
+                <div class="testimonials__slider-custom">
+                  <div class="testimonials__slider-img-container">
+                    <img src="./img/slider2-1.png" alt="slider1">
+                  </div>
+                  <div class="testimonials__slider-info-container">
+                    <p class="testimonials__slider-info-text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia.</p>
+                    <p class="testimonials__slider-info-name">Partho</p>
+                    <p class="testimonials__slider-info-job">founder, artways bd</p>
+                  </div>
+                </div>
+              </div>
+              <div class="testimonials__slider-item">
+                <div class="testimonials__slider-custom">
+                  <div class="testimonials__slider-img-container">
+                    <img src="./img/slider2-2.jpg" alt="slider1">
+                  </div>
+                  <div class="testimonials__slider-info-container">
+                    <p class="testimonials__slider-info-text">itiis praesentium voluptatum deleniti atque corrupti quos d dolores iditate non provident, similique sunt in culpa qui officia deserunt mollitia.</p>
+                    <p class="testimonials__slider-info-name">Sinto</p>
+                    <p class="testimonials__slider-info-job">founder, ffy bd</p>
+                  </div>
+                </div>
+              </div>
+              <div class="testimonials__slider-item">
+                <div class="testimonials__slider-custom">
+                  <div class="testimonials__slider-img-container">
+                    <img src="./img/slider2-3.jpg" alt="slider1">
+                  </div>
+                  <div class="testimonials__slider-info-container">
+                    <p class="testimonials__slider-info-text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiisAt vero eos et accusamus et iusto odio dignissimos ducimus qui </p>
+                    <p class="testimonials__slider-info-name">Tanti</p>
+                    <p class="testimonials__slider-info-job">founder, wwe bd</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contact" class="contact">
+        <div class="contact__wrapper wrapper">
+          <div class="contact__info">
+            <p class="contact__title">contact us</p>
+            <p class="contact__subtitle">
+            At vero eos et accusamus et iusto odio dignissimos
+            ducimus qui blanditiis praesentium
+            </p>
+          </div>
+        </div>
+        <div id="contact__google-api" class="contact__google-api"></div>
+      </section>
+      <footer id="footer" class="footer">
+          <div class="footer__wrapper wrapper">
+            <a href="#header" class="footer__title">
+              <img src="./img/logo2.png" alt="footer-logo">
+            </a>
+            <p class="footer__subtitle">Copyright 2015. All rights Reserved</p>
+            <div class="footer__socials socials">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-vimeo-v"></i></a>
+            </div>
+          </div>
+        </footer>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAVWeuqBXVd2YnrarRXTEw1VQiGHDo9JLA&callback=initMap"
+      async defer></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
